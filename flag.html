@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    
+    .flag
+    {
+     
+border: solid 6px rgb(20, 19, 19);
+      width: 900px;
+      height: 600px;
+      background-color:#1A5F7A;
+      position: relative;
+      left: 15%;
+      top: 20%;
+
+    }
+    .flag>p
+    {
+      color: white;
+      font-size: 6rem;
+      text-align: center;
+      position: relative;
+      bottom: 50px;
+     
+     
+    }
+    .flag>div
+    {
+     width: 100%;
+      height: 400px;
+      background-color:#002B5B;
+      position: relative;
+      bottom: 100px;
+    }
+   .flag> div >div
+    {
+      width: 100%;
+      height: 200px;
+      background-color: white;
+     
+      
+      
+    }
+    .inner-circle
+    {
+      border: solid 15px rgb(42, 223, 240);
+      width: 150px;
+      height: 150px;
+      background-color: #159895;
+      border-radius: 50%;
+      position: absolute;
+      left:40%;
+      top: 10px;
+      
+    }
+    body
+    
+    {
+      background-color: silver;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+       <div class="inner-circle"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
